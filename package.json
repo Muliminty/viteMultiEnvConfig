@@ -1,5 +1,5 @@
 {
-  "name": "project",
+  "name": "zlink_pc_cn_front_help",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,6 +7,7 @@
     "start": "vite",
     "start:dev": "cross-env VITE_NODE_ENV=development vite --mode development",
     "start:staging": "cross-env VITE_NODE_ENV=staging vite --mode staging",
+    "start:ll": "cross-env VITE_NODE_ENV=ll vite --mode ll",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -15,7 +16,9 @@
     "axios": "^1.7.2",
     "dotenv": "^16.4.5",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.24.1",
+    "sass": "^1.77.7"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",

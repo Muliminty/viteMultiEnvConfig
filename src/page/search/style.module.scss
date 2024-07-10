@@ -1,0 +1,14 @@
+// 正确的 .sass 文件示例
+.a {
+  background-color: rebeccapurple;
+
+  .b {
+    color: #000;
+  }
+
+  :global {
+    .c {
+      color: #fff;
+    }
+  }
+}
