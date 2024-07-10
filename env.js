@@ -14,12 +14,6 @@ const env = {
     VITE_PORT: 3002,
     OTHER_VARIABLE: 'value_for_production'
   },
-  ll: {
-    VITE_API_BASE_URL: 'http://10.8.12.130:8099',
-    VITE_PORT: 3004,
-    OTHER_VARIABLE: 'value_for_production',
-    VITE_NAME: '林恋'
-  }
   // Add more environments as needed
 };
 
